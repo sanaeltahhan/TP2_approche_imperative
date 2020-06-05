@@ -1,5 +1,7 @@
 package fr.boucles;
 
+import java.util.Arrays;
+
 public class ExerciceTableauEntier {
 	
 	public static void main(String[] args) {
@@ -22,9 +24,9 @@ public class ExerciceTableauEntier {
 		
 		//Modifiez la valeur de l’élément d’index 4 et donnez lui la valeur 8.
 		
-		tableauEntier[4] = 6;
+		tableauEntier[4] = 8;
 		
-		System.out.println("Le nouveau tableau est " + tableauEntier);
+		System.out.println("Le nouveau tableau est " + Arrays.toString(tableauEntier));
 		
 	}
 
