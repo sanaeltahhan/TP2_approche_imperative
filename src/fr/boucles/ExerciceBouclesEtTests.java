@@ -7,7 +7,6 @@ public class ExerciceBouclesEtTests {
 		int[] array = {1, 15, -3, 0, 8, 7, 4, -2, 28, 7, -1, 17, 2, 3, 0, 14, -4};
 		
 		// Afficher l’ensemble des éléments du tableau grâce à une boucle
-
 		System.out.println("####Afficher l’ensemble des éléments du tableau grâce à une boucle####");
 
 		
@@ -17,7 +16,6 @@ public class ExerciceBouclesEtTests {
 		}
 		
 		// Afficher l’ensemble des éléments dans l’ordre inverse du tableau
-
 		System.out.println("####Afficher l’ensemble des éléments dans l’ordre inverse du tableau####");
 
 		
@@ -35,7 +33,6 @@ public class ExerciceBouclesEtTests {
 		  
 		  
 		  //Combiner une boucle et un test de manière à n’afficher que les entiers supérieurs à 3
-
 		  System.out.println("####Combiner une boucle et un test de manière à n’afficher que les entiers supérieurs à 3####");
 
 		  
@@ -49,7 +46,6 @@ public class ExerciceBouclesEtTests {
 		  }
 		  
 		  //Combiner une boucle et un test de manière à n’afficher que les entiers pairs
-		  
 		  System.out.println("####Combiner une boucle et un test de manière à n’afficher que les entiers pairs####");
 		  
 		  for (int i=0; i < array.length ; i++) {
@@ -60,7 +56,6 @@ public class ExerciceBouclesEtTests {
 		  }
 		  
 		  //Combiner une boucle et un test de manière à n’afficher que valeurs des index pairs
-		  
 		  System.out.println("####Combiner une boucle et un test de manière à n’afficher que valeurs des index pairs####");
 
 		  for (int i = 0; i < array.length ; i++) {
@@ -71,7 +66,6 @@ public class ExerciceBouclesEtTests {
 		  }
 		  
 		  // Combiner une boucle et un test de manière à n’afficher que les entiers impairs
-		  
 		  System.out.println("####Combiner une boucle et un test de manière à n’afficher que les entiers impairs####");
 		  
 		  for (int i=0; i < array.length ; i++) {
