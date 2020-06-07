@@ -11,6 +11,8 @@ public class ExerciceBoucleBase {
 			System.out.println(i);
 		}
 		
+		System.out.println();
+
 		//Affichez 20 fois votre nom et votre prénom
 		System.out.println("####Affichez 20 fois votre nom et votre prénom####");
 		
@@ -18,12 +20,17 @@ public class ExerciceBoucleBase {
 
 			System.out.println(i+". Sana EL TAHHAN" );
 		}
+		
+		System.out.println();
+
 		//Affichez les éléments pairs de 2 à 100
 		System.out.println("####Affichez les éléments pairs de 2 à 100####");
 
 		for (int i=0; i<=100; i=i+2) {
 			System.out.println(i);
 		}
+		
+		System.out.println();
 		
 		// Affichez les éléments impairs de 1 à 99
 		System.out.println("####Affichez les éléments impairs de 1 à 99####");

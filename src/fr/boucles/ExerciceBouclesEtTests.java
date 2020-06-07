@@ -15,6 +15,8 @@ public class ExerciceBouclesEtTests {
 			System.out.println("Les élement du tableau sont: "+array[i]);
 		}
 		
+		System.out.println();
+		
 		// Afficher l’ensemble des éléments dans l’ordre inverse du tableau
 		System.out.println("####Afficher l’ensemble des éléments dans l’ordre inverse du tableau####");
 
@@ -32,6 +34,8 @@ public class ExerciceBouclesEtTests {
 		  }
 		  
 		  
+		  System.out.println();
+		  
 		  //Combiner une boucle et un test de manière à n’afficher que les entiers supérieurs à 3
 		  System.out.println("####Combiner une boucle et un test de manière à n’afficher que les entiers supérieurs à 3####");
 
@@ -45,6 +49,9 @@ public class ExerciceBouclesEtTests {
 			  
 		  }
 		  
+		  
+		  System.out.println();
+
 		  //Combiner une boucle et un test de manière à n’afficher que les entiers pairs
 		  System.out.println("####Combiner une boucle et un test de manière à n’afficher que les entiers pairs####");
 		  
@@ -55,6 +62,9 @@ public class ExerciceBouclesEtTests {
 			  }
 		  }
 		  
+		  
+		  System.out.println();
+
 		  //Combiner une boucle et un test de manière à n’afficher que valeurs des index pairs
 		  System.out.println("####Combiner une boucle et un test de manière à n’afficher que valeurs des index pairs####");
 
@@ -64,6 +74,9 @@ public class ExerciceBouclesEtTests {
 				  System.out.println("Les élements du tableau dont leur index est pair sont : " + array[i]);
 			  }  
 		  }
+		  
+		  
+		  System.out.println();
 		  
 		  // Combiner une boucle et un test de manière à n’afficher que les entiers impairs
 		  System.out.println("####Combiner une boucle et un test de manière à n’afficher que les entiers impairs####");
