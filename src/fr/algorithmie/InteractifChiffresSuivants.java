@@ -12,9 +12,6 @@ public class InteractifChiffresSuivants {
 		// Initialisation du scanner
 		Scanner scanner = new Scanner(System.in) ;
 		
-		// Initialisation du boolean pour tester la condition
-		boolean stop = false;
-		
 		// Initialisation de la variable pour stocker la valeur entré par l'utilisateur
 		int nb = 0 ;
 		
