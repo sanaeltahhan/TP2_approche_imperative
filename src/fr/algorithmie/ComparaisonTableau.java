@@ -40,8 +40,7 @@ public class ComparaisonTableau {
 				}
 			}
 		  }  
-	  }
-		 
+	  } 
 		
 		System.out.println("Le nombre commun d'élément entre les deux tableau est de : " + nbrElementCommun);
 	}
