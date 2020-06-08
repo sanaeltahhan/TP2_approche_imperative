@@ -1,14 +1,14 @@
 package fr.algorithmie;
+
 import java.util.Scanner;
 
-public class InteractifTantQue {
+public class InteractifTableMult {
 	
-	/*Créer une classe InteractifTantQue
-		Ecrire un programme qui demande un nombre à l’utilisateur qui doit être obligatoirement compris entre 1 et 10 :
-			- Tant que ce nombre n’est pas compris entre 1 et 10, le programme redemande un nombre à l’utilisateur.
-			- Si le nombre est compris entre 1 et 10, le programme affiche ce nombre et se termine.*/
+	/* Créer une classe InteractifTableMult
+	   Ecrire un programme qui demande un nombre à l’utilisateur qui doit être compris entre 1 et 10. 
+	   Une fois que le nombre est bien entre 1 et 10, le programme affiche la table de multiplication de ce nombre.*/
 	
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
 		// Initialisation du scanner
 		Scanner scanner = new Scanner(System.in) ;
@@ -22,7 +22,7 @@ public class InteractifTantQue {
 		do {
 			
 			// Affichage du message de saisie dans la console
-			System.out.println("Saisir un mombre : ");
+			System.out.println("Saisir un mombre entre 1 et 10 : ");
 			
 			// Methode qui permet d'attendre tant que l'utilisateur n'a pas saisi un nombre et a appuyé sur entrer
 			nb = scanner.nextInt();
@@ -33,14 +33,17 @@ public class InteractifTantQue {
 			}
 
 		}
+		
 		// Executer le do tant que stop est faux
 		while (!stop);
 		
-		// Affichage du resultat et arret du scanner 
-		System.out.println(nb);
+		// Affichage du resultat de la table de multiplication et arret du scanner 
+		System.out.println("Table de " + nb + " :");
+		for (int i = 0; i <= 10; i++) {
+			System.out.println(nb + " * " + i + " = " + (nb * i));
+		}
 		scanner.close();
 		
 	}
-	
 
 }
