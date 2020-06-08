@@ -33,9 +33,9 @@ public class TriParSelection {
              array[min] = x;
 	        }
 	    }
-		
-		System.out.println("Le tableau trié par selection est : " + Arrays.toString(array));
+
+	    System.out.println("Le tableau trié par selection est : " + Arrays.toString(array));
 		
 	}
 	
-	}
+}
