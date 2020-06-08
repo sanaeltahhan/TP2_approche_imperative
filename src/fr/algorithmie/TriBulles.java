@@ -5,9 +5,7 @@ import java.util.Arrays;
 public class TriBulles {
 	
 	public static void main(String[] args) {
-		
-		//Implémenter la méthode de tri à bulles
-		
+				
 		int[] array = {3, -8, 17, 5, -1, 4, 0, 6, 2, 11, -5, -4, 8} ;
 		
 		System.out.print("Avant le tri le tableau est : " + Arrays.toString(array));
