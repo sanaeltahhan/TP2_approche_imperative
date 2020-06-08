@@ -54,7 +54,7 @@ public class InteractifStockageNombre {
 					tmpArray[i] = array[i];
 				}
 
-				//  En fin de tableau, on ajoute la valeur saisie
+				// En fin de tableau, on ajoute la valeur saisie
 				tmpArray[tmpArray.length - 1] = valeur;
 
 				// Affectage du tableau tmpArray au tableau array
