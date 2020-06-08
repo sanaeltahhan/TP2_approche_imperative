@@ -22,7 +22,7 @@ public static void main(String[] args) {
 		do {
 			
 			// Affichage du message de saisie dans la console
-			System.out.println("Saisir un mombre entre 1 et 10 : ");
+			System.out.println("Saisir un nombre entre 1 et 10 : ");
 			
 			// Methode qui permet d'attendre tant que l'utilisateur n'a pas saisi un nombre et a appuyé sur entrer
 			nb = scanner.nextInt();

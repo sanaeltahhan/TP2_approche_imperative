@@ -17,7 +17,7 @@ public class InteractifSommeArithmetique {
 		
 			
 		// Affichage du message de saisie dans la console
-		System.out.println("Saisir un mombre: ");
+		System.out.println("Saisir un nombre: ");
 		
 		// Methode qui permet d'attendre tant que l'utilisateur n'a pas saisi un nombre et a appuyé sur entrer
 		nb = scanner.nextInt();
