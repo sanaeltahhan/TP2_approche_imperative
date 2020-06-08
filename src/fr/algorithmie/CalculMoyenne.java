@@ -19,7 +19,7 @@ public class CalculMoyenne {
 		
 		moyenne = somme / (float)array.length;
 		
-		System.out.println("la moyenne des éléments du tableau est : " + moyenne);
+		System.out.println("La moyenne des éléments du tableau est : " + moyenne);
 		
 	}
 
