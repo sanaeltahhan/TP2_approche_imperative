@@ -59,7 +59,6 @@ public class InteractifPlusMoins {
 		// Une fois le nombre trouvé on affiche le msg avec le nombre de coup et on ferme le scanner
 		System.out.println("Bien joué ! Tu as trouvé en " + coup + " coup(s)");
 		scanner.close();
-
 			
 	}
 
